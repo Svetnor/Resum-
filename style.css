@@ -1,0 +1,162 @@
+/* VARIABLER */
+:root {
+    --main-color: #97d88a;
+    --light-color: #C5F4E0;
+    --accent-color: #92b38a;
+    --dark-color: #4E3D42;
+}
+
+/* BASEN */
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+}
+body{
+    background-color: var(--light-color);
+
+    color: var(--dark-color);
+    font-family: var(--main-font);
+}
+
+
+
+/*TYPOGRAFI */
+h1{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+    color: var(--dark-color);
+    font-family: var(--main-font);
+    font-size: 3em;
+    
+
+}
+h2 {
+    color: var(--main-color);
+    font-family: var(--dark-color);
+    font-size: 3em;
+
+}
+
+h4{
+    color: var(--main-color);
+    font-size: 2em;
+ }
+
+ p, li {
+    padding-top: 0.5em;
+
+    font-size: 1em;
+    list-style: none;
+ }
+
+ a {
+    color: var(--dark-color)
+
+ }
+ 
+ .center{
+    width: 100%;
+    padding: 7%;
+
+    border-bottom: 2px solid var(--accent-color);
+
+    text-align: center;
+ }
+
+ .quote{
+    padding: 7%;
+
+    text-align: center;
+    font-family: var(--accent-font);
+    font-size: 2em;
+    color: var(--light-color);
+ }
+/* HEADER */
+header{
+    display: flex;
+
+    width: 100%;
+
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--accent-color);
+}
+header img{
+    max-width: 200px;
+    max-height: 200px;
+
+    border-radius: 100%;
+}
+
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 4em;
+}
+
+{
+.socialmedia a:hover
+   color: var(--light-color);
+}
+
+.bigger{font-size: 4em;
+align-items: center;
+}
+
+/* MAIN */
+
+main{
+    display: flex;
+
+    width: 70%;
+    margin: 0px auto;
+
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 4em;
+ }
+
+section{
+
+    width: 100%;
+    padding: 2em;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.erfarring{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+}
+
+aside{
+    display: flex;
+
+    flex: initial;
+
+    flex-direction: column;
+}
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    min-height: 100px;
+    margin-top: 2em;
+    
+    background-color: var(--main-color);
+ }
+
