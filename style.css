@@ -148,6 +148,8 @@ aside{
     flex: initial;
 
     flex-direction: column;
+
+    text-align: right;
 }
 
 /* FOOTER */
